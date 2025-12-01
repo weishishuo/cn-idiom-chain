@@ -25,3 +25,5 @@ replay_pid*
 
 .vscode
 target
+node_modules
+frontend/node_modules
