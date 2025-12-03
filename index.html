@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成语接龙游戏</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-window">
+            <div class="chat-header">
+                <h1>成语接龙</h1>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message system">
+                    <div class="message-content">
+                        <p>欢迎玩成语接龙游戏，请输入一个四字成语</p>
+                    </div>
+                </div>
+            </div>
+            <div class="input-container">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="请输入四字成语..."
+                    maxlength="4"
+                >
+                <button id="sendBtn">发送</button>
+            </div>
+            <div class="button-container">
+                <button id="restartBtn" class="restart-btn">重新开始</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
