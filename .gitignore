@@ -1,27 +1,49 @@
-# Compiled class file
-*.class
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# Log file
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# BlueJ files
-*.ctxt
+# Node.js
+node_modules/
+dist/
+build/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Environment
+.env
+.env.local
+.env.*.local
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Testing
+coverage/
+.nyc_output/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-
-.vscode
-target
+# Misc
+*.tsbuildinfo
